@@ -17,10 +17,11 @@
           </ul>
         </div>
         <div class="input-aria">
-          <input type="text" name="" id="">
+          <input type="text" name="" id="" placeholder="Search...">
           <div class="avator">
             <img src="/public/image/download (1).jpg" alt="">
           </div>
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <!-- mobile-menu -->
         <div class="mobile-menu"><i class="fa-solid fa-bars"></i></div>

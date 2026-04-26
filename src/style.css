@@ -4,6 +4,7 @@
   --Active-Font-Size: 15px;
   --Span-Bg-Color: #e8eefa;
   --Span-Font-Size: 12px;
+  --Navbar-Font-Size: 13px;
   --Fuature-Icons-Bg-Color: #ecf1fb;
   --Card-Bg-Color: white;
   --PeraGraph-Color: #3c4858;
@@ -78,7 +79,7 @@ nav {
         }
         li a {
           color: var(--PeraGraph-Color);
-          font-size: var(--PeraGraph-Font-Size);
+          font-size: var(--Navbar-Font-Size);
           font-weight: 600;
           text-transform: uppercase;
           transition: all 0.4s ease;
@@ -91,7 +92,21 @@ nav {
     .input-aria {
       display: flex;
       align-self: center;
+      position: relative;
       gap: 1rem;
+      input {
+        padding: 0.5rem 1rem;
+        border: none;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      i {
+        position: absolute;
+        right: 4.5rem;
+        top: 15px;
+        font-size: 13px;
+        font-weight: 600;
+      }
       .avator {
         img {
           width: 40px;
